@@ -104,6 +104,7 @@ sns.despine()
 
 # Adjust layout and display
 plt.tight_layout()
+plt.savefig('visualizations/EDA.png')
 plt.show()
 
 # Temporal Analysis (separate figure)
@@ -116,6 +117,7 @@ plt.xlabel('Date', fontsize=10)
 plt.ylabel('Price ($)', fontsize=10)
 sns.despine()
 plt.tight_layout()
+plt.savefig('visualizations/temporal.png')
 plt.show()
 
 # Average Price by Agency (separate figure)
@@ -134,6 +136,7 @@ for i in bars.containers:
 
 sns.despine()
 plt.tight_layout()
+plt.savefig('visualizations/avg_price.png')
 plt.show()
 plt.show()
 
@@ -205,6 +208,7 @@ axes[2].set_xlabel('Season')
 axes[2].set_ylabel('Price ($)')
 
 plt.tight_layout()
+plt.savefig('visualizations/time_series.png')
 plt.show()
 
 # %%
@@ -225,6 +229,7 @@ ax3.set_title('Seasonal')
 decomposition.resid.plot(ax=ax4)
 ax4.set_title('Residual')
 plt.tight_layout()
+plt.savefig('visualizations/seasonal_decomposition.png')
 plt.show()
 
 # %%
@@ -256,6 +261,7 @@ plt.xlabel('Price ($)')
 plt.ylabel('Destination City')
 plt.legend(title='Season')
 plt.tight_layout()
+plt.savefig('visualizations/seasonal_boxplot.png')
 plt.show()
 
 # Agency Performance by Season
@@ -267,6 +273,7 @@ plt.xlabel('Agency')
 plt.ylabel('Average Price ($)')
 plt.legend(title='Season')
 plt.tight_layout()
+plt.savefig('visualizations/agency_seasonal_performance.png')
 plt.show()
 
 # Print best agencies for each season

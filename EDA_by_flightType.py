@@ -108,6 +108,7 @@ for flightType in ['economic', 'premium', 'firstClass']:
 
     # Adjust layout and display
     plt.tight_layout()
+    plt.savefig(f'visualizations/by_type/EDA_{flightType.lower()}.png')
     plt.show()
 
     # Temporal Analysis (separate figure)
@@ -120,6 +121,7 @@ for flightType in ['economic', 'premium', 'firstClass']:
     plt.ylabel('Price ($)', fontsize=10)
     sns.despine()
     plt.tight_layout()
+    plt.savefig(f'visualizations/by_type/temporal_{flightType.lower()}.png')
     plt.show()
 
     # Average Price by Agency (separate figure)
@@ -138,7 +140,7 @@ for flightType in ['economic', 'premium', 'firstClass']:
 
     sns.despine()
     plt.tight_layout()
-    plt.show()
+    plt.savefig(f'visualizations/by_type/avg_price_{flightType.lower()}.png')
     plt.show()
 
     # %%
@@ -209,6 +211,7 @@ for flightType in ['economic', 'premium', 'firstClass']:
     axes[2].set_ylabel('Price ($)')
 
     plt.tight_layout()
+    plt.savefig(f'visualizations/by_type/time_series_{flightType.lower()}.png')
     plt.show()
 
     # %%
@@ -229,6 +232,7 @@ for flightType in ['economic', 'premium', 'firstClass']:
     decomposition.resid.plot(ax=ax4)
     ax4.set_title(f'Residual')
     plt.tight_layout()
+    plt.savefig(f'visualizations/by_type/seasonal_decomposition_{flightType.lower()}.png')
     plt.show()
 
     # %%
@@ -260,6 +264,7 @@ for flightType in ['economic', 'premium', 'firstClass']:
     plt.ylabel('Destination City')
     plt.legend(title='Season')
     plt.tight_layout()
+    plt.savefig(f'visualizations/by_type/seasonal_boxplot_{flightType.lower()}.png')
     plt.show()
 
     # Agency Performance by Season
@@ -271,6 +276,7 @@ for flightType in ['economic', 'premium', 'firstClass']:
     plt.ylabel('Average Price ($)')
     plt.legend(title='Season')
     plt.tight_layout()
+    plt.savefig(f'visualizations/by_type/agency_seasonal_performance_{flightType.lower()}.png')
     plt.show()
 
     # Print best agencies for each season

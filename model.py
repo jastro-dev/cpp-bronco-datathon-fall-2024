@@ -77,6 +77,6 @@ for flightType in ['economic', 'premium', 'firstClass']:
 
     # 5. Save Results
     print("Saving results...")
-    results_df.to_csv(f'holiday_predictions_{flightType}.csv', index=False)
+    results_df.to_csv(f'predictions/holiday_predictions_{flightType}.csv', index=False)
     print("\nResults Preview:")
     print(results_df)

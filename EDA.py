@@ -28,7 +28,7 @@ def summarize_dataframe(df: pd.DataFrame, df_name: str='DataFrame'):
     else:
         print("\nNo Duplicate Rows Found.")
 
-summarize_dataframe(df, 'Trafel Dataframe:')
+summarize_dataframe(df, 'Travel Dataframe:')
 
 # %%
 

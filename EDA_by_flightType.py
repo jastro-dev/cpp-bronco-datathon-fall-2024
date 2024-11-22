@@ -32,7 +32,7 @@ for flightType in ['economic', 'premium', 'firstClass']:
         else:
             print("\nNo Duplicate Rows Found.")
 
-    summarize_dataframe(df, 'Trafel Dataframe:')
+    summarize_dataframe(df, 'Travel Dataframe:')
 
     # %%
 

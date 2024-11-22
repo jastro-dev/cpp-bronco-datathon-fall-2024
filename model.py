@@ -23,6 +23,7 @@ for flightType in ['economic', 'premium', 'firstClass']:
     df['days_to_newyear'] = abs((df['date'] - newyear_2024).dt.days)
 
     # Get top 10 destinations
+    print(f'Choosing from {df['to'].value_counts()}')
     top_destinations = df['to'].value_counts().nlargest(10).index
     df_top = df[df['to'].isin(top_destinations)]
 

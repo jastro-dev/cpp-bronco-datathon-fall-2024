@@ -1,10 +1,10 @@
 destination,christmas_price,newyear_price,popularity_rank,best_agency
-Sao Paulo (SP),751.94,751.94,1.0,Rainbow
-Brasilia (DF),791.83,791.83,1.0,Rainbow
-Natal (RN),796.88,796.88,1.0,Rainbow
-Campo Grande (MS),847.16,847.16,1.0,CloudFy
-Recife (PE),909.71,909.71,1.0,CloudFy
-Rio de Janeiro (RJ),918.88,918.88,1.0,Rainbow
-Aracaju (SE),950.9,950.9,1.0,CloudFy
-Florianopolis (SC),1053.15,1053.15,1.0,CloudFy
-Salvador (BH),1158.81,1158.81,1.0,CloudFy
+Sao Paulo (SP),782.72,782.72,1.0,CloudFy
+Brasilia (DF),889.24,889.24,1.0,Rainbow
+Campo Grande (MS),927.44,927.44,1.0,CloudFy
+Natal (RN),976.8,976.8,1.0,CloudFy
+Aracaju (SE),1030.22,1030.22,1.0,CloudFy
+Recife (PE),1030.56,1030.56,1.0,CloudFy
+Florianopolis (SC),1072.2,1072.2,1.0,CloudFy
+Rio de Janeiro (RJ),1086.74,1086.74,1.0,Rainbow
+Salvador (BH),1163.49,1163.49,1.0,CloudFy
